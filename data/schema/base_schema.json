@@ -4,12 +4,12 @@
     "description": null,
     "columns": [
       {
-        "name": "Product Name",
+        "name": "Product_Name",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "2017 Budgets",
+        "name": "2017_Budgets",
         "type": "REAL",
         "desc": null
       }
@@ -21,7 +21,7 @@
     "description": null,
     "columns": [
       {
-        "name": "State Code",
+        "name": "State_Code",
         "type": "TEXT",
         "desc": null
       },
@@ -43,12 +43,12 @@
     "description": null,
     "columns": [
       {
-        "name": "Customer Index",
+        "name": "Customer_Index",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Customer Names",
+        "name": "Customer_Names",
         "type": "TEXT",
         "desc": null
       }
@@ -142,17 +142,17 @@
     "description": null,
     "columns": [
       {
-        "name": "OrderNumber",
+        "name": "Order_Number",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "OrderDate",
+        "name": "Order_Date",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "Customer Name Index",
+        "name": "Customer_Name_Index",
         "type": "INTEGER",
         "desc": null
       },
@@ -162,42 +162,42 @@
         "desc": null
       },
       {
-        "name": "Currency Code",
+        "name": "Currency_Code",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "Warehouse Code",
+        "name": "Warehouse_Code",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "Delivery Region Index",
+        "name": "Delivery_Region_Index",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Product Description Index",
+        "name": "Product_Description_Index",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Order Quantity",
+        "name": "Order_Quantity",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Unit Price",
+        "name": "Unit_Price",
         "type": "REAL",
         "desc": null
       },
       {
-        "name": "Line Total",
+        "name": "Line_Total",
         "type": "REAL",
         "desc": null
       },
       {
-        "name": "Total Unit Cost",
+        "name": "Total_Unit_Cost",
         "type": "REAL",
         "desc": null
       }
@@ -209,17 +209,17 @@
     "description": null,
     "columns": [
       {
-        "name": "OrderNumber",
+        "name": "Order_Number",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "OrderDate",
+        "name": "Order_Date",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "Customer Name Index",
+        "name": "Customer_Name_Index",
         "type": "INTEGER",
         "desc": null
       },
@@ -229,42 +229,42 @@
         "desc": null
       },
       {
-        "name": "Currency Code",
+        "name": "Currency_Code",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "Warehouse Code",
+        "name": "Warehouse_Code",
         "type": "TEXT",
         "desc": null
       },
       {
-        "name": "Delivery Region Index",
+        "name": "Delivery_Region_Index",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Product Description Index",
+        "name": "Product_Description_Index",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Order Quantity",
+        "name": "Order_Quantity",
         "type": "INTEGER",
         "desc": null
       },
       {
-        "name": "Unit Price",
+        "name": "Unit_Price",
         "type": "REAL",
         "desc": null
       },
       {
-        "name": "Line Total",
+        "name": "Line_Total",
         "type": "REAL",
         "desc": null
       },
       {
-        "name": "Total Unit Cost",
+        "name": "Total_Unit_Cost",
         "type": "REAL",
         "desc": null
       }
@@ -281,7 +281,7 @@
         "desc": null
       },
       {
-        "name": "Product Name",
+        "name": "Product_Name",
         "type": "TEXT",
         "desc": null
       }
