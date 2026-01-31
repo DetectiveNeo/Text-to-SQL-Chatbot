@@ -1,0 +1,291 @@
+[
+  {
+    "table": "2017_budgets",
+    "description": null,
+    "columns": [
+      {
+        "name": "Product Name",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "2017 Budgets",
+        "type": "REAL",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "table": "state_regions",
+    "description": null,
+    "columns": [
+      {
+        "name": "State Code",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "State",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Region",
+        "type": "TEXT",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "table": "customers",
+    "description": null,
+    "columns": [
+      {
+        "name": "Customer Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Customer Names",
+        "type": "TEXT",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "table": "regions",
+    "description": null,
+    "columns": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "county",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "state_code",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "state",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "latitude",
+        "type": "REAL",
+        "desc": null
+      },
+      {
+        "name": "longitude",
+        "type": "REAL",
+        "desc": null
+      },
+      {
+        "name": "area_code",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "population",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "households",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "median_income",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "land_area",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "water_area",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "time_zone",
+        "type": "TEXT",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "table": "sales_orders_old",
+    "description": null,
+    "columns": [
+      {
+        "name": "OrderNumber",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "OrderDate",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Customer Name Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Channel",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Currency Code",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Warehouse Code",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Delivery Region Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Product Description Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Order Quantity",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Unit Price",
+        "type": "REAL",
+        "desc": null
+      },
+      {
+        "name": "Line Total",
+        "type": "REAL",
+        "desc": null
+      },
+      {
+        "name": "Total Unit Cost",
+        "type": "REAL",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "table": "sales_order",
+    "description": null,
+    "columns": [
+      {
+        "name": "OrderNumber",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "OrderDate",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Customer Name Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Channel",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Currency Code",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Warehouse Code",
+        "type": "TEXT",
+        "desc": null
+      },
+      {
+        "name": "Delivery Region Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Product Description Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Order Quantity",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Unit Price",
+        "type": "REAL",
+        "desc": null
+      },
+      {
+        "name": "Line Total",
+        "type": "REAL",
+        "desc": null
+      },
+      {
+        "name": "Total Unit Cost",
+        "type": "REAL",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  },
+  {
+    "table": "products",
+    "description": null,
+    "columns": [
+      {
+        "name": "Index",
+        "type": "INTEGER",
+        "desc": null
+      },
+      {
+        "name": "Product Name",
+        "type": "TEXT",
+        "desc": null
+      }
+    ],
+    "relationships": []
+  }
+]
