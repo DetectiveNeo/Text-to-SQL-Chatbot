@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug create_embedding",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.rag.create_embedding",
+      "console": "integratedTerminal"
+    }
+  ]
+}

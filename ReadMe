@@ -13,3 +13,37 @@ LLM generates SQL
 Execute SQL
 
 
+Vector Embeddings
+
+Raw Structure that needs to be embedded
+
+Table: orders
+Columns:
+- order_id (INTEGER)
+- customer_id (INTEGER)
+- order_date (DATE)
+- total_amount (FLOAT)
+
+Local / embedded vector stores (MOST projects)
+    FAISS (Used in this project)
+    Chroma (local mode)
+
+    FAISS : Facebook AI Similarity Search
+        Store vectors
+        Index them intelligently
+        Search for nearest neighbors very fast
+
+Returen the top k vector store embedding indices which matches with the query
+indices = [[4, 0, 7]]
+distances = [[0.12, 0.45, 0.88]]
+
+FAISS index 0  <--> metadata[0]
+FAISS index 1  <--> metadata[1]
+
+
+Industry rule of thumb
+
+__init__ should initialize, not restore.
+
+Restoring state from disk is a separate concern.
+
