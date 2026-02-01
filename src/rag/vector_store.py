@@ -17,7 +17,7 @@ class VectorStore:
         # assert len(self.index) == len(self.metadata) , "Number of embeddings are not equal to the number of meta data of tables"
 
     def search(self, query_embedding, k= 3):
-        query = np.asarray([query_embedding]).astype("float32")
+        query = np.asarray(query_embedding).astype("float32")
         # Returen the top k vector store embedding indices which matches with the query
         # indices = [[4, 0, 7]]
         # distances = [[0.12, 0.45, 0.88]]
@@ -71,14 +71,21 @@ if __name__ == "__main__":
 
     # store.save(path= cfg.vectore_store_path)
 
-    new_store = VectorStore.load(path= cfg.vectore_store_path)
+    # new_store = VectorStore.load(path= cfg.vectore_store_path)
 
-    (distances , results) = new_store.search(query_embedding= [1.5,1.5], k= 2)
-    print(f"Distance: {distances}")
-    print(f"Results: {results}")
+    # (distances , results) = new_store.search(query_embedding= [1.5,1.5], k= 2)
+    # print(f"Distance: {distances}")
+    # print(f"Results: {results}")
 
 
+    # ----------------------------------------------------------------------------------------------
 
+    store = VectorStore.load(path= cfg.vectore_store_path)
+
+    print(store.metadata)
+    print(len(store.metadata))
+
+    print("----------------------------------------------------------------------------------------------")
 
 
 

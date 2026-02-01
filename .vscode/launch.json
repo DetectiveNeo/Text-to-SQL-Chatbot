@@ -1,11 +1,18 @@
 {
   "version": "0.2.0",
-  "configurations": [
+  "configurations": [  
+    // {
+    //   "name": "Debug create_embedding",
+    //   "type": "debugpy",
+    //   "request": "launch",
+    //   "module": "src.rag.create_embedding",
+    //   "console": "integratedTerminal"
+    // },
     {
-      "name": "Debug create_embedding",
+      "name": "Debug main",
       "type": "debugpy",
       "request": "launch",
-      "module": "src.rag.create_embedding",
+      "module": "src.main",
       "console": "integratedTerminal"
     }
   ]
